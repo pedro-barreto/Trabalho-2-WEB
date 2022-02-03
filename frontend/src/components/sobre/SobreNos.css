@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Block&display=swap');
+
+.form hr{
+
+    background-color: black;
+
+}
+
+.form p{
+
+    font-family: 'Flow Block', cursive;
+
+}
+
+.form-group img{
+
+    width: 100%;
+
+}
+
+.align-img{
+
+    margin: auto;
+
+}

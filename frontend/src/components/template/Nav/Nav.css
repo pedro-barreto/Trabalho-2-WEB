@@ -1,0 +1,22 @@
+aside.menu-area{
+
+    background-color: #2498E0;
+
+}
+
+.menu a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 15px;
+    font-size: 1.2em;
+
+}
+
+.menu a:hover{
+
+    background-color: #4BDB5E;
+
+}
