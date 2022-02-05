@@ -1,8 +1,9 @@
-import Main from '../template/Main/Main'
 import axios from 'axios'
-import React, { useState, useEffect } from "react"
-import InputMask from 'react-input-mask'
 import './AlunoCadastro.css'
+import InputMask from 'react-input-mask'
+import Main from '../template/Main/Main'
+import React, { useState, useEffect } from "react"
+
 
 const baseUrl = 'http://localhost:3001/alunos'
 
@@ -239,7 +240,7 @@ export default function AlunoCadastro() {
                         <div className="form-group">
 
                             <h2>Contato</h2>
-                            <hr/>
+                            <hr />
 
                         </div>
                     </div>
@@ -292,6 +293,7 @@ export default function AlunoCadastro() {
         )
 
     }
+
     useEffect(() => {
 
         const getAllAlunos = async () => {
@@ -362,6 +364,7 @@ export default function AlunoCadastro() {
                     {renderRows()}
 
                 </tbody>
+
             </table>
 
         )
