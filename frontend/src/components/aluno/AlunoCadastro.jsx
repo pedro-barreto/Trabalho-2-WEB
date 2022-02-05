@@ -317,7 +317,7 @@ export default function AlunoCadastro() {
         try {
 
             const response = await axios.get(baseUrl)
-            return (response.data)
+            return response.data
 
         } catch (err) {
 
@@ -337,7 +337,7 @@ export default function AlunoCadastro() {
 
         axios.delete(`${baseUrl}/${alunoSelected.id}`).then(resp => {
 
-            const newList = alunoList.filter(aluno => aluno !== alunoSelected)
+            const newList = alunoList.filter(user => user !== alunoSelected)
             setItens(newList)
 
         })
@@ -354,6 +354,8 @@ export default function AlunoCadastro() {
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
+                        <th>Responsavel</th>
+                        <th>Serie</th>
                         <th>CPF</th>
                         <th>Ações</th>
                     </tr>
@@ -381,9 +383,10 @@ export default function AlunoCadastro() {
 
                     <td>{aluno.id}</td>
                     <td>{aluno.nome}</td>
+                    <td>{aluno.responsavel}</td>
+                    <td>{aluno.serie}</td>
                     <td>{aluno.cpf}</td>
                     <td>
-
 
                         <button className="btn btn-warning" onClick={() => load(aluno)}>
 

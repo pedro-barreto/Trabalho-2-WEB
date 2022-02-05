@@ -92,11 +92,11 @@ class AlunosController{
         try {
 
             const id = parseInt(req.params.id)
-            const aluno = await Aluno.destroy(id)
+            const aluno = await Aluno.findByPk(id)
             const status = id >= 0 ? 200:404
 
             aluno.destroy()
-            return status(status).json()
+            return res.status(status).json()
             
         } catch (e) {
             
