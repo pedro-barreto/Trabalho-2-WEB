@@ -384,7 +384,7 @@ export default function AlunoCadastro() {
                     <td>{aluno.id}</td>
                     <td>{aluno.nome}</td>
                     <td>{aluno.responsavel}</td>
-                    <td>{aluno.serie}</td>
+                    <td>{aluno.serie}º Ano</td>
                     <td>{aluno.cpf}</td>
                     <td>
 

@@ -4,6 +4,7 @@ import Main from "../template/Main/Main"
 import Imagem1 from '../../assets/images/1.png'
 import Imagem2 from '../../assets/images/2.png'
 import Imagem3 from '../../assets/images/3.png'
+import Imagem4 from '../../assets/images/4.png'
 
 const headerProps = {
 
@@ -91,7 +92,7 @@ export default function SobreNos() {
                     <div className="col-12 col-md-4 align-img">
                         <div className="form-group">
 
-                            <img src={Imagem1} alt="Instituro" className="align-middle"/>
+                            <img src={Imagem4} alt="Instituro" className="align-middle"/>
 
                         </div>
                     </div>

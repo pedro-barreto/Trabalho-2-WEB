@@ -1,0 +1,26 @@
+.noticia-titulo{
+
+    background-image: linear-gradient(to right, #2498e000,#2498E0,#2498E0,#2498e000);
+    padding-top: 10px;
+    text-align: center;
+    margin: 30px auto 30px;
+
+}
+
+.divs{
+
+    margin-top: 50px;
+
+}
+
+.first-notice{
+
+    margin-top: 100px;
+
+}
+
+.last-notice{
+
+    margin-bottom: 50px;
+
+}
