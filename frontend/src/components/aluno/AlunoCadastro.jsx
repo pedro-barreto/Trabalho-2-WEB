@@ -123,7 +123,7 @@ export default function AlunoCadastro() {
                     <div className="col-12 col-md-2">
                         <div className="form-group">
 
-                            <label>Nasacimento <span className='text-danger'>*</span></label>
+                            <label>Nascimento <span className='text-danger'>*</span></label>
                             <InputMask type="text" className="form-control" name='nascimento' value={aluno.nascimento}
                                 placeholder="Data do nascimento..." onChange={e => updateField(e)} mask={'99/99/9999'} />
 
